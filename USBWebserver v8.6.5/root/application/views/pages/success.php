@@ -1,0 +1,1 @@
+<?php echo 'pozdravljen '.$_SESSION['upoIme'];?>
