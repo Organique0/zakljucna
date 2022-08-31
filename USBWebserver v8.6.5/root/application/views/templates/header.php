@@ -28,30 +28,30 @@
     <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/projekt">Spletna stran</a>
+            <a class="navbar-brand" href="/">Spletna stran</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarColor02">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/projekt">Domov</a>
+                        <a class="nav-link" href="">Domov</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/projekt/naloge">Naloge</a>
+                        <a class="nav-link" href="/naloge">Naloge</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/projekt/prijava">Prijava</a>
+                        <a class="nav-link" href="/prijava">Prijava</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/projekt/odjava">Odjava</a>
+                        <a class="nav-link" href="/odjava">Odjava</a>
                     </li>
                     <?php
                     if (isset($_SESSION["admin"]) and $_SESSION["admin"]==1){
-                        echo '<li class="nav-item"><a class="nav-link" href="/projekt/admin">Admin</a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="/admin">Admin</a></li>';
                     }
                     if (isset($_SESSION["sestavljalec"]) and $_SESSION["sestavljalec"]==1){
-                        echo '<li class="nav-item"><a class="nav-link" href="/projekt/sestavljalci">Sestavljalec</a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="/sestavljalci">Sestavljalec</a></li>';
                     }
                     ?>
                     

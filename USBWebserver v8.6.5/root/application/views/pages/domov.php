@@ -37,7 +37,7 @@
 <div class="d-flex m-5" style="height:20%">
     <div class="bg-primary bg-gradient mt-5 d-flex align-items-center justify-content-center" style="width:100%; height:100%;">
         <div style="color:white; width:50%; text-align:center">
-            <h2>Če želite shraniti svoj napredek, se <a href="/projekt/registracija" style="color:white ">Registrirajte</a> ali <a href="/projekt/prijava" style="color:white ">prijavite</a></h2>
+            <h2>Če želite shraniti svoj napredek, se <a href="/registracija" style="color:white ">Registrirajte</a> ali <a href="/prijava" style="color:white ">prijavite</a></h2>
         </div>
     </div>
 </div>
