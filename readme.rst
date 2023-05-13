@@ -1,3 +1,6 @@
+this project was build to be used on a lamp server. 
+
+
 ###################
 What is CodeIgniter
 ###################
