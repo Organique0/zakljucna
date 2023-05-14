@@ -1,5 +1,8 @@
 this project was build to be used on a a lamp server. It was build on USBWebserver.
 
+copy the files from the settings folder into your settings folder on your server (outside of root folder).
+Use the aplikacija.sql to recreate the database.
+Open the ER.mwb file in sql wordbench to view the diagram of the database.
 
 ###################
 What is CodeIgniter
