@@ -1,4 +1,4 @@
-this project was build to be used on a a lamp server. 
+this project was build to be used on a a lamp server. It was build on USBWebserver.
 
 
 ###################
